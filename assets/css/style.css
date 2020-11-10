@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&display=swap');
+.dropdown{
+    margin-left: 2cm;
+}
+.fa-1x {
+    font-size: 1.5rem;
+    }
+    .navbar-toggler.toggler-example {
+    cursor: pointer;
+    position: sticky;
+    }
+    .dark-blue-text {
+    color: #0A38F5;
+    }
+    .dark-pink-text {
+    color: #AC003A;
+    }
+    .dark-amber-text {
+    color: #ff6f00;
+    }
+    .dark-teal-text {
+    color: #004d40;
+    }
+
+section{
+    min-height: 500px;
+}
+body{
+    font-family: 'Comfortaa';
+}
+.judul{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.tagline{
+    font-family: 'Josefin Sans', sans-serif;
+}
+#judul-tengah{
+    padding: 20px 0px 20px 0px;
+    width: 400px;
+    border-radius: 22px 22px 22px 22px;
+    -moz-border-radius: 22px 22px 22px 22px;
+    -webkit-border-radius: 22px 22px 22px 22px;
+    border: 0px solid;
+    background-color:rgba(220, 249, 255, 0.85);
+}
+
+.navbar{
+    background-color: black;
+}
+    /* a:hover{
+        color: deeppink;
+    } */
+
+.jumbotron-fluid{
+    background-image: url("../img/julian-dik--czl8QNCVKY-unsplash.jpg");
+    background-size:cover;
+    height: 400px;
+   
+}
+
+img.card-img-top{
+    object-fit:cover; 
+    height:200px; 
+    /* object-position: 100% 0%; */
+}
+#row-2{
+    object-position: 50% 50%;
+}
+.footer{
+    background-image: radial-gradient( circle farthest-corner at -14.3% -17.5%,  rgba(245,168,168,1) 4%, rgba(164,168,248,1) 100.2% );
+}
