@@ -4,6 +4,12 @@
     margin-left: 2cm;
 }
 
+/* bagianhome */
+#about{
+    min-height: 350px;
+}
+
+
 /* Ini Punya Login.html */
 .login{
     height: 100vh;
