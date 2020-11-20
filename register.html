@@ -17,36 +17,51 @@
                     <div class="img-left d-none d-md-flex"></div>
                         <div class="card-body">
                             <h4 class="judul text-center mt-4">
-                                Masuk ke Akunmu
+                               Daftar
                             </h4>
                             <form class="form-box px-3">
-                                <div class="form-inputLogin">
-                                    <span><i class="far fa-envelope"></i></span>
+                                <div class="form-inputRegister">
+                                    <span><i class="fas fa-user-plus"></i></span>
+                                    <input type="username" name="" placeholder="Nama Pengguna" 
+                                    tabindex="10" required>
+                                </div>
+                                <div class="form-inputRegister">
+                                    <span><i class="fas fa-envelope"></i></span>
                                     <input type="email" name="" placeholder="Alamat E-mail" 
                                     tabindex="10" required>
                                 </div>
-                                <div class="form-inputLogin">
+                                <div class="form-inputRegister">
                                     <span><i class="fas fa-key"></i></span>
                                     <input type="password" name="" placeholder="Masukan Kata Sandi" 
                                      required>
                                 </div>
-                               
+                                <div class="form-inputRegister">
+                                    <span><i class="fas fa-key"></i></span>
+                                    <input type="password" name="" placeholder="Ulangi Kata Sandi" 
+                                     required>
+                                </div>
+                                
                                 <div class="mb-3">
                                     <button type="submit" class="btn btn-block text-uppercase">
-                                        Login
+                                        Daftar
                                     </button>
                                 </div>
-                                <div class="text-right">
-                                    <a href="#" class="forget-link">
-                                        Lupa Password?
-                                    </a>
+                                <div class="text-center">Atau</div><br>
+                                <div class="Log text-center mb-2">
+                                    <a href="login.html" class="login-link">Masuk</a>
                                 </div>
-                                <div class="text-center">Atau</div>
+                                
                                 <hr class="my-4"> 
-                                <div class="text-center mb-2">
-                                    Belum Punya Akun?
-                                    <a href="register.html" class="register-link">Daftar Sekarang</a>
-                                </div>
+                               <div class="mb-3">
+                                   <div class="custom-control custom-checkbox">
+                                    <input type="checkbox" class="custom-control-input"id ="cb-1"
+                                    name="">
+                                    <label class="custom-control-label" for="cb-1">
+                                        dengan klik daftar, maka anda telah menyetujui syarat dan ketentuan
+                                        yang berlaku.
+                                    </label>
+                                   </div>
+                               </div>
                             </form>
                         </div>
                </div>
